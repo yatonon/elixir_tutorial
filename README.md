@@ -16,3 +16,6 @@ config :elixir_tutorial, ElixirTutorial.Repo,
 ```
 docker-compose up -d
 ```
+ここまでくれば
+http://localhost:4000
+で動くはず
