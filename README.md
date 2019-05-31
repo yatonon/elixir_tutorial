@@ -42,10 +42,15 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   ```
 
 ```
-mix ecto.setup
+mix ecto.create
 mix phx.server
+iex -S mix phx.server
 ```
 
   ここまでくれば
   http://localhost:4000
   で動くはず
+
+  memo
+  breakpoint
+  `require IEx; IEx.pry`
